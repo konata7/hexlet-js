@@ -1,7 +1,8 @@
-import _ from "lodash";
+/* eslint-disable no-console */
+import _ from 'lodash';
 
-export default () => {
-    console.log("Hello, Hexlet!");
-    console.log(_.last(["one", "two"]));
-}
-
+const greet = () => {
+  console.log('Hello, Hexlet!');
+  console.log(_.last(['one', 'two']));
+};
+export default greet;
